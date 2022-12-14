@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+  <div class="flex">
+   <div class="mt-16 ml-28 grid grid-rows-[12%_43%_2%_43%] h-[500px] w-[60%] border-2" id="parent">
+    <div class="bg-[#00000008] border-b-2">
+      <h1 class="pl-4 pt-5 text-xl font-medium ">Cart - 2 items</h1>
+    </div>
+    <div class="flex firstele">
+    <div class="pl-4 pt-4">
+      <img class="h-44 w-40" src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp">
+    </div>
+    <div class= "ml-6 mt-4">
+      <h4 class="font-medium text-lg">Blue denim shirt</h4>
+      <p class="my-3">Color: blue</p>
+      <p class="mb-3">Size: M</p>
+      <div class="flex">
+        <button class="remove">
+      <div class="bg-blue-600 w-8 h-8 mr-2 relative rounded-sm">
+        <i class="fa-solid fa-trash absolute right-[50%] translate-x-2/4 bottom-2 text-white"></i>
+      </div>
+        </button>
+        <button class="remove hurt" >
+      <div class="bg-red-600 w-8 h-8 rounded-sm relative">
+        <i class="fa-solid fa-heart absolute right-[50%] translate-x-2/4 bottom-2 text-blue-600" id="link1"></i>
+      </div>
+        </button>
+      </div>
+    </div>
+    <div class="iconeholder ml-[30%] mt-5 w-56 relative" id="iconeholder1">
+      <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1" id="botn1">-</button>
+    <div class="flex flex-col">
+      <input class="border-neutral-200 w-28 h-10 border-2 rounded-md"type="number" min="0" name="number1" id="number1" >
+      <label for="firstinput">Quantity</label>
+    </div>
+    <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[7.4rem] text-white text-center text-3xl pt-3" id="botn2">+</button>
+    <p class="pt-7 pl-6">$17.99</p>
+    </div>
+    </div>
+    <div class="px-4">
+      <hr>
+    </div>
+    <div class="flex firstele">
+      <div class="pl-4 pt-4">
+        <img class="h-44 w-40" src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp">
+      </div>
+      <div class= "ml-6 mt-4">
+        <h4 class="font-medium text-lg">Red hoodie</h4>
+        <p class="my-3">Color: red</p>
+        <p class="mb-3">Size: M</p>
+        <div class="flex">
+          <button class="remove">
+        <div class="bg-blue-600 w-8 h-8 mr-2 relative rounded-sm">
+          <i class="fa-solid fa-trash absolute right-[50%] translate-x-2/4 bottom-2 text-white"></i>
+        </div>
+      </button>
+      <button class="remove hurt">
+        <div class="bg-red-600 w-8 h-8 rounded-sm relative">
+          <i class="fa-solid fa-heart absolute right-[50%] translate-x-2/4 bottom-2 text-white " id="link2"></i>
+        </div>
+      </button>
+        </div>
+      </div>
+      <div class="iconeholder ml-[35%] mt-5 w-56 relative">
+        <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1" id="botn3">-</button>
+      <div class="flex flex-col">
+        <input class="border-neutral-200 w-28 h-10 border-2 rounded-md" type="number" min="0" name="number2" id="number2" >
+        <label for="firstinput">Quantity</label>
+      </div>
+      <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[7.5rem] text-white text-center text-3xl pt-3" id="botn4">+</button>
+      <p class="pt-7 pl-6">$17.99</p>
+      </div>
+      </div>
+   </div>
+   <div class="w-[20%] mt-16 ml-6 h-[18rem] border-2">
+    <div class= "bg-[#00000008] rounded-sm h-16 border-b-2">
+      <h1 class="pl-4 pt-4 text-xl font-medium">Summary</h1>
+    </div>
+    <p class="mt-4 mb-4 ml-4">Products<span class="pl-32" id="somme1">$53.98</span></p>
+    <p class="ml-4">Shipping<span class="pl-36">Free</span></p>
+    <hr class="mt-2 ml-2 mr-2 mb-2 flex">
+    <div class=" pl-4 w-36 text-base font-bold">
+    <p>Total amount (including VAT)</p>
+    <div class=" relative left-48 bottom-10" id="somme2">$53.98</div>
+    </div>
+    <div class="bg-blue-600 w-40 h-12 rounded-md text-center pt-3 ml-4 mt-[-3%] text-xl">
+    <a href="#" class=" text-white ">Go to Checkout</a>
+    </div>
+   </div>
+   </div>
+</body>
+<script src="tailwind.config.js"></script>
+<script src="all.min.js"></script>
+<script src="javascript.js"></script> 
+</body>
+</html>
