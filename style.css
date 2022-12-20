@@ -1,0 +1,58 @@
+.cartimage {
+    display: flex;
+    height: 12rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.title {
+    width: 6rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: medium;
+}
+.color {
+    margin-left: 1rem;
+
+}
+.inp {
+    border-width: 20%;
+    border-color:#000;
+    width: 6rem;
+    height: 2rem ;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: darkgrey;
+    border-radius: 5%;
+}
+.dec {
+    border-radius: 10%;
+    margin-left: 1rem;
+    background-color: blue;
+    height: 2.5rem;
+    width: 2rem;
+    color: white;
+    font-size: larger;
+}
+.inc {
+    border-radius: 10%;
+    background-color: blue;
+    height: 2.5rem;
+    width: 2rem;
+    color: white;
+    font-size: larger;
+}
+.supp {
+    background-color: red;
+    position: relative;
+    height: 2rem;
+    width: 5rem;
+    margin-top: 30%;
+    right: 25%;
+    border-radius: 10%;
+}
+.svg {
+    position: absolute;
+    left: 27%;
+    bottom: 25%;
+    color: white;
+}

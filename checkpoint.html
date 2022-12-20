@@ -11,89 +11,133 @@
 </head>
 <body>
   <div class="flex">
-   <div class="mt-16 ml-28 grid grid-rows-[12%_43%_2%_43%] h-[500px] w-[60%] border-2" id="parent">
+   <div class="mt-16 ml-4 grid grid-rows-[12%_fr_2%_fr_2%_fr_2%_fr] h-[900px] w-[60%] border-2" id="parent">
     <div class="bg-[#00000008] border-b-2">
-      <h1 class="pl-4 pt-5 text-xl font-medium ">Cart - 2 items</h1>
+      <h1 class="pl-4 pt-5 text-xl font-medium ">Clothes Men</h1>
     </div>
-    <div class="flex firstele">
+    <div class="flex" id="0">
     <div class="pl-4 pt-4">
-      <img class="h-44 w-40" src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp">
+      <img class="h-44 w-40" src="images/0.jpg">
     </div>
     <div class= "ml-6 mt-4">
       <h4 class="font-medium text-lg">Blue denim shirt</h4>
       <p class="my-3">Color: blue</p>
       <p class="mb-3">Size: M</p>
-      <div class="flex">
-        <button class="remove">
-      <div class="bg-blue-600 w-8 h-8 mr-2 relative rounded-sm">
-        <i class="fa-solid fa-trash absolute right-[50%] translate-x-2/4 bottom-2 text-white"></i>
-      </div>
-        </button>
-        <button class="remove hurt" >
+        <button class="remove hurt">
       <div class="bg-red-600 w-8 h-8 rounded-sm relative">
-        <i class="fa-solid fa-heart absolute right-[50%] translate-x-2/4 bottom-2 text-blue-600" id="link1"></i>
+        <svg class="absolute right-[50%] translate-x-2/4 bottom-2 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
       </div>
         </button>
-      </div>
     </div>
-    <div class="iconeholder ml-[30%] mt-5 w-56 relative" id="iconeholder1">
-      <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1" id="botn1">-</button>
+    <button class="addcart bg-blue-500 h-0 mt-[10%]" ><img class="w-[8rem] h-[4rem]" src="addtocart.png"></button>
+    <div class="iconeholder ml-[15%] mt-5 w-56 relative" id="iconeholder1">
+      <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1 btn1">-</button>
     <div class="flex flex-col">
-      <input class="border-neutral-200 w-28 h-10 border-2 rounded-md"type="number" min="0" name="number1" id="number1" >
+      <input class="border-neutral-200 w-28 h-10 border-2 rounded-md count" type="number" min="0" name="number1" id="number1" >
       <label for="firstinput">Quantity</label>
     </div>
-    <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[7.4rem] text-white text-center text-3xl pt-3" id="botn2">+</button>
-    <p class="pt-7 pl-6">$17.99</p>
+    <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[6.8rem] text-white text-center text-3xl pt-3 btn2" >+</button>
+    <p class="pt-7 pl-6">$17.5</p>
+    <div class="text-green-500 stock"> 10 in stock </div>
     </div>
     </div>
     <div class="px-4">
       <hr>
     </div>
-    <div class="flex firstele">
+    <div class="flex " id="1">
       <div class="pl-4 pt-4">
-        <img class="h-44 w-40" src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp">
+        <img class="h-44 w-40" src="images/1.jpg">
       </div>
       <div class= "ml-6 mt-4">
         <h4 class="font-medium text-lg">Red hoodie</h4>
         <p class="my-3">Color: red</p>
         <p class="mb-3">Size: M</p>
-        <div class="flex">
-          <button class="remove">
-        <div class="bg-blue-600 w-8 h-8 mr-2 relative rounded-sm">
-          <i class="fa-solid fa-trash absolute right-[50%] translate-x-2/4 bottom-2 text-white"></i>
-        </div>
-      </button>
       <button class="remove hurt">
         <div class="bg-red-600 w-8 h-8 rounded-sm relative">
-          <i class="fa-solid fa-heart absolute right-[50%] translate-x-2/4 bottom-2 text-white " id="link2"></i>
+          <svg class="absolute right-[50%] translate-x-2/4 bottom-2 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
         </div>
       </button>
-        </div>
       </div>
-      <div class="iconeholder ml-[35%] mt-5 w-56 relative">
-        <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1" id="botn3">-</button>
+      <button class="ml-[5%] addcart h-[0rem] mt-[10%] bg-slate-500"><img class="w-[8rem] h-[4rem]" src="addtocart.png"></button>
+      <div class="iconeholder ml-[15%] mt-5 w-56 relative">
+        <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1 btn1">-</button>
       <div class="flex flex-col">
-        <input class="border-neutral-200 w-28 h-10 border-2 rounded-md" type="number" min="0" name="number2" id="number2" >
+        <input class="border-neutral-200 w-28 h-10 border-2 rounded-md count" type="number" min="0" name="number2" id="number2" >
         <label for="firstinput">Quantity</label>
       </div>
-      <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[7.5rem] text-white text-center text-3xl pt-3" id="botn4">+</button>
-      <p class="pt-7 pl-6">$17.99</p>
+      <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[6.8rem] text-white text-center text-3xl pt-3 btn2">+</button>
+      <p class="pt-7 pl-6">$17.5</p>
+      <div class="text-green-500 stock"> 10 in stock </div>
       </div>
       </div>
+      <div class="px-4">
+        <hr>
+      </div>
+      <div class="flex" id="2">
+        <div class="pl-4 pt-4">
+          <img class="h-44 w-40" src="images/2.jpg">
+        </div>
+        <div class= "ml-6 mt-4">
+          <h4 class="font-medium text-lg">Blue jeans shoe</h4>
+          <p class="my-3">Color: blue</p>
+          <p class="mb-3">Size: 40</p>
+        <button class="remove hurt">
+          <div class="bg-red-600 w-8 h-8 rounded-sm relative">
+            <svg class="absolute right-[50%] translate-x-2/4 bottom-2 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+          </div>
+        </button>
+        </div>
+        <button class="addcart h-0 mt-[10%]" ><img class="w-[8rem] h-[4rem] " src="addtocart.png"></button>
+        <div class="iconeholder ml-[15%] mt-5 w-56 relative">
+          <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1 btn1">-</button>
+        <div class="flex flex-col">
+          <input class="border-neutral-200 w-28 h-10 border-2 rounded-md count" type="number" min="0" name="number2" id="number2" >
+          <label for="firstinput">Quantity</label>
+        </div>
+        <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[6.8rem] text-white text-center text-3xl pt-3 btn2">+</button>
+        <p class="pt-7 pl-6">$17.5</p>
+        <div class="text-green-500 stock"> 10 in stock </div>
+        </div>
+        </div>
+        <div class="px-4">
+          <hr>
+        </div>
+        <div class="flex" id="3">
+          <div class="pl-4 pt-4">
+            <img class="h-44 w-40" src="images/3.jpg">
+          </div>
+          <div class= "ml-6 mt-4 w-[20%]">
+            <h4 class="font-medium text-lg">Moroccan national team shirt</h4>
+            <p class="my-3">Color: white</p>
+            <p class="mb-3">Size: M</p>
+          <button class="remove hurt">
+            <div class="bg-red-600 w-8 h-8 rounded-sm relative">
+              <svg class="absolute right-[50%] translate-x-2/4 bottom-2 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+            </div>
+          </button>
+          </div>
+          <button class="addcart h-0 mt-[10%]" ><img class="w-[8rem] h-[4rem]" src="addtocart.png"></button>
+          <div class="iconeholder ml-[11%] mt-5 w-56 relative">
+            <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[14.5rem] text-center text-white text-5xl pt-1 btn1">-</button>
+          <div class="flex flex-col">
+            <input class="border-neutral-200 w-28 h-10 border-2 rounded-md count" type="number" min="0" name="number2" id="number2" >
+            <label for="firstinput">Quantity</label>
+          </div>
+          <button class="absolute bg-blue-800 w-12 h-[4.6rem] rounded-md right-[25%] bottom-[6.8rem] text-white text-center text-3xl pt-3 btn2">+</button>
+          <p class="pt-7 pl-6">$17.5</p>
+          <div class="text-green-500 stock" id=""> 10 in stock </div>
+          </div>
+          </div>
    </div>
-   <div class="w-[20%] mt-16 ml-6 h-[18rem] border-2">
-    <div class= "bg-[#00000008] rounded-sm h-16 border-b-2">
-      <h1 class="pl-4 pt-4 text-xl font-medium">Summary</h1>
+   <div class="mt-12 ml-5 border-2 w-[30%]">
+    <div class="text-xl font-medium border-b-2 h-16 pl-4 pt-6 bg-green-300">Cart items </div>
+    <div id="main">
+<!-- for add produits to carts --> 
+   <div id="cartitem" class="text-center my-2">Your cart is empty</div>
     </div>
-    <p class="mt-4 mb-4 ml-4">Products<span class="pl-32" id="somme1">$53.98</span></p>
-    <p class="ml-4">Shipping<span class="pl-36">Free</span></p>
-    <hr class="mt-2 ml-2 mr-2 mb-2 flex">
-    <div class=" pl-4 w-36 text-base font-bold">
-    <p>Total amount (including VAT)</p>
-    <div class=" relative left-48 bottom-10" id="somme2">$53.98</div>
-    </div>
-    <div class="bg-blue-600 w-40 h-12 rounded-md text-center pt-3 ml-4 mt-[-3%] text-xl">
-    <a href="#" class=" text-white ">Go to Checkout</a>
+    <div class="flex justify-between mx-4 border-t-2 border-black">
+      <h3 class="text-xl font-medium">Total</h3>
+      <h2 class="text-xl font-medium" id="total">$ 0.00</h2>
     </div>
    </div>
    </div>
